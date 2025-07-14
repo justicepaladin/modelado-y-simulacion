@@ -40,4 +40,47 @@ plt.grid(color='gray', linestyle='--', linewidth=0.5)
 plt.show()
 ```
 output:
+
 ![Ejercicio 1 Lagrange](https://i.imgur.com/csD5QZN.png)
+
+### Ejemplo con ejercicio 9 de Lagrange (en el caso de que se busque comparar el polinomio con la función real)
+```python
+import numpy as np
+import matplotlib.pyplot as plt
+
+# Definir la función, el polinomio interpolante y los puntos a interpolar
+def f(x):
+    return np.sin(x)
+
+def P(x):
+    return -4 * x * (x - np.pi) / (np.pi ** 2)
+
+def interpol_x():
+    return [0, np.pi/2, np.pi]
+
+def interpol_y():
+    return [0, 1, 0]
+
+# Crear un conjunto de valores x para graficar
+x = np.linspace(0, np.pi, 400)
+y = f(x)
+y_pol = P(x)
+
+# Graficar la función original y el polinomio interpolante
+plt.plot(x, y, label='Función original f(x) = sin(x)', color='blue') # Comentar en el caso de que se quiera graficar solo el polinomio
+plt.plot(x, y_pol, label='Polinomio interpolante P(x)', color='red', linestyle='--')
+
+# Marcar los puntos interpolationados
+plt.scatter(interpol_x(), interpol_y(), color='green', zorder=5)
+
+# Añadir detalles al gráfico
+plt.xlabel('x')
+plt.ylabel('y')
+plt.title('Aproximación de f(x) = sin(x) con polinomio de Lagrange de grado 2')
+plt.legend()
+plt.grid(color='gray', linestyle='--', linewidth=0.5)
+plt.show()
+```
+output:
+
+![Ejercicio 9 Lagrange](https://i.imgur.com/s8XJxve.png)
