@@ -8,10 +8,14 @@ Los puntos dados son los siguientes:
 - Punto 3: $(x_3,y_3)=(3,9)$
 ### Paso 2: construir los términos de Lagrange
 El polinomio interpolante de Lagrange se construye como:
+
 $$P(x)=\sum_{i=1}^{n} y_i*L_i(x)$$
-En donde L_i(x) son los términos de Lagrange, y n la cantidad de puntos.
+
+En donde $L_i(x)$ son los términos de Lagrange, y n la cantidad de puntos.
 Para cada punto $x_i$, el término de Lagrange $L(x)$ se construye de la siguiente forma:
-$$L_i(x)=\prod_{\substack{i=1 \\ i \ne j}}^{n} \frac{x-x_j}{x_i-x_j}$$
+
+$$L_i(x)=\prod_{\substack{i=1 \\\\ i \ne j}}^{n} \frac{x-x_j}{x_i-x_j}$$
+
 #### Término L_1(x) para el punto 1
 $$L_1(x)=\frac{(x-x_2)(x-x_3)}{(x_1-x_2)(x_1-x_3)}=\frac{(x-2)(x-3)}{(1-2)(1-3)}=\frac{(x-2)(x-3)}{2}$$
 #### Término L_2(x) para el punto 2
@@ -19,9 +23,12 @@ $$L_2(x)=\frac{(x-x_1)(x-x_3)}{(x_2-x_1)(x_2-x_3)}=\frac{(x-1)(x-3)}{(2-1)(2-3)}
 #### Término L_3(x) para el punto 3
 $$L_3(x)=\frac{(x-x_1)(x-x_2)}{(x_3-x_1)(x_3-x_2)}=\frac{(x-1)(x-2)}{(3-1)(3-2)}=\frac{(x-1)(x-2)}{2}$$
 ### Paso 3: combinar los términos y armar el polinomio
-El polinomio interpolante de Lagrange $P(x)$ es:
-$$P(x)=y_1*L_1(x)+y_2*L_2(x)+y_3*L_3(x) \implies reemplazo\ por\ valores\ obtenidos$$
+El polinomio interpolante de Lagrange $P(x)$ es: 
+
+$$P(x)=y_1 L_1(x) + y_2 L_2(x) + y_3 L_3(x)\implies reemplazo\ por\ valores\ obtenidos$$
+
 $$\implies P(x)=1*\frac{(x-2)(x-3)}{2}+4*\frac{(x-1)(x-3)}{-1}+9*\frac{(x-1)(x-2)}{2}$$
+
 #### Simplificación de términos
 ##### Término 1
 $$1*\frac{(x-2)(x-3)}{2}=\frac{x^2-5x+6}{2}$$
