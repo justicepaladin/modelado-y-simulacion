@@ -32,7 +32,9 @@ $$\text{En donde }h=\frac{b-a}{n}$$
 
 4. **Aplicar la formula**
 
-$$\text{Area}=\int_0^\frac{\pi}{2} (6+3cos(x))\: \mathrm{d}x \approx \frac{\pi/4}{2}\left[ f(x_0)+2 * f(x_1)+f(x_2) \right] \approx \frac{\pi}{8}\left[9+2 * 8.1213203+6 \right]\implies$$
+$$\text{Area}=\int_0^\frac{\pi}{2} (6+3cos(x))\: \mathrm{d}x \approx \frac{\pi/4}{2}\left[ f(x_0)+2 * f(x_1)+f(x_2) \right] \implies$$
+
+$$\implies \text{Area}\approx \frac{\pi}{8}\left[9+2 * 8.1213203+6 \right]$$
 
 $$\implies\color{green}\text{Area}\approx12.26895627$$
 
@@ -63,7 +65,9 @@ $$\implies\color{green}\text{Area}\approx12.26895627$$
 
 4. **Aplicar la formula**
 
-$$\text{Area}=\int_0^\frac{\pi}{2} (6+3cos(x))\: \mathrm{d}x \approx \frac{\pi/8}{2}\left[ f(x_0)+2 * (f(x_1)+f(x_2)+f(x_3))+f(x_4) \right]\approx \frac{\pi}{16}\left[9+2 * (8.7716385+8.1213203+7.1480502) +6 \right]\implies$$
+$$\text{Area}=\int_0^\frac{\pi}{2} (6+3cos(x))\: \mathrm{d}x \approx \frac{\pi/8}{2}\left[ f(x_0)+2 * (f(x_1)+f(x_2)+f(x_3))+f(x_4) \right]\implies$$
+
+$$\implies \text{Area} \approx \frac{\pi}{16}\left[9+2 * (8.7716385+8.1213203+7.1480502) +6 \right]\implies$$
 
 $$\implies \color{green}Area \approx 12.38612527$$
 
@@ -99,7 +103,9 @@ $$\int_a^b f(x)\: \mathrm{d}x\approx\frac{h}{3}\left[f(x_0)+4\sum_{i=1,3,5...}^{
 
 4. **Aplicar la formula**
 
-$$\text{Area}=\int_0^\frac{\pi}{2} (6+3cos(x))\: \mathrm{d}x\approx \frac{\pi/8}{3}\left[f(x_0)+4(f(x_1)+f(x_3))+2(f(x_2))+f(x_4)\right]\approx \frac{\pi}{24} \left[9+4 * (8.7716385 + 7.1480502) + 2 * 8.1213203 + 6 \right]\implies$$
+$$\text{Area}=\int_0^\frac{\pi}{2} (6+3cos(x))\: \mathrm{d}x\approx \frac{\pi/8}{3}\left[f(x_0)+4(f(x_1)+f(x_3))+2(f(x_2))+f(x_4)\right]\implies$$
+
+$$\implies \text{Area} \approx \frac{\pi}{24} \left[9+4 * (8.7716385 + 7.1480502) + 2 * 8.1213203 + 6 \right]\implies$$
 
 $$\implies\color{green}Area \approx 12.4251816$$
 
@@ -134,7 +140,9 @@ $$\color{red}\text{Nota: los múltiplos de 3 van solo en la parte de múltiplos,
 
 4. **Aplicar la formula**
 
-$$\text{Area}=\int_0^\frac{\pi}{2} (6+3cos(x))\: \mathrm{d}x\approx \frac{3 * \pi/6}{8} \left[ f(x_0) + 3 * (f(x_1)) + 3 * (f(x_2)) + f(x_3) \right] \approx \frac{\pi}{16} \left[9 + 3 * (8.598076) + 3 * (7.5) + 6 \right] \implies$$
+$$\text{Area}=\int_0^\frac{\pi}{2} (6+3cos(x))\: \mathrm{d}x\approx \frac{3 * \pi/6}{8} \left[ f(x_0) + 3 * (f(x_1)) + 3 * (f(x_2)) + f(x_3) \right]  \implies$$
+
+$$\implies \text{Area} \approx \frac{\pi}{16} \left[9 + 3 * (8.598076) + 3 * (7.5) + 6 \right] \implies$$
 
 $$\implies \color{green}\text{Area} \approx 12.42779261$$
 
@@ -171,7 +179,8 @@ $$\implies \color{green}\text{Area} \approx 12.42779261$$
 
 4. **Aplicar la formula**
 
-$$\text{Area}=\int_0^\frac{\pi}{2} (6+3cos(x))\: \mathrm{d}x\approx \frac{3 * \pi/12}{8} \left[ f(x_0) + 3 * (f(x_1) + f(x_5)) + 3 (f(x_2) + f(x_4)) + 2 * f(x_3) + f(x_6) )\right] \approx \frac{\pi}{32} \left[9+3 * (8.897777 + 6.776457) + 3 * (8.598076 + 7.5) + 2 * (8.1213203) + 6 \right] \implies$$
+$$\text{Area}=\int_0^\frac{\pi}{2} (6+3cos(x))\: \mathrm{d}x\approx \frac{3 * \pi/12}{8} \left[ f(x_0) + 3 * (f(x_1) + f(x_5)) + 3 (f(x_2) + f(x_4)) + 2 * f(x_3) + f(x_6) )\right] \implies$$
+
+$$\implies\text{Area}\approx\frac{\pi}{32} \left[9+3 * (8.897777 + 6.776457) + 3 * (8.598076 + 7.5) + 2 * (8.1213203) + 6 \right] \implies$$
 
 $$\implies \color{green}\text{Area} \approx 12.42495679$$
-
