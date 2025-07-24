@@ -39,4 +39,4 @@ $$x_2=x_1-\frac{f(x_1)}{f'(x_1)} \implies x_2=0.75$$
 ### Paso 4: observar la convergencia
 El método converge hacia $x=1$, pero lo hace lentamente porque la función $f(x)=(x−1)^2$ es convexa y su derivada en el mínimo es cero. Esto hace que el método de Newton-Raphson converja linealmente en este caso (en lugar de cuadráticamente).
 ### Paso 5: gráfico
-![Ejercicio 1 NR](https://i.postimg.cc/G2kp7sNf/descarga.png)
+![Ejercicio 1 NR](https://i.imgur.com/BSo7XNi.png)
